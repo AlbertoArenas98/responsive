@@ -1,0 +1,54 @@
+
+.header{
+    height: 100px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+.hero{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+.content{
+    padding: 20px;
+    background-color: green;
+    color: white;
+    height: 60vh;
+}
+.sidebar{
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    height: 60vh;
+}
+.footer{
+    padding: 20px;
+    background-color: grey;
+    color: white;
+}
+.contentSidebar{
+    display: flex;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+    contentSidebar{
+        display: flex;
+        height: 300vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .contentSidebar{
+        display: block;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .contentSidebar{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
